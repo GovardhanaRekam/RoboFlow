@@ -93,7 +93,7 @@ import cv2
 from roboflow import Roboflow
 
 # Initialize Roboflow
-rf = Roboflow(api_key="GEX5bAodg6wPi7i2hlo9")
+rf = Roboflow(api_key="your API key")
 project = rf.workspace().project("tomotao_disease_prediction")
 model = project.version(2).model
 
